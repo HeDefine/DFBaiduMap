@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  DFBaiduMap
+//
+//  Created by 何定飞 on 2017/3/17.
+//  Copyright © 2017年 hdf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define BaiduMapKey pd7M8Txqlnp27nOmsuqMH5Yz6R3oj3HU
+
+#endif /* PrefixHeader_pch */

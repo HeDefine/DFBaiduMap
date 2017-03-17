@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		079EBD975DC678E0DD87E512 /* Pods-DFBaiduMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBaiduMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBaiduMap/Pods-DFBaiduMap.release.xcconfig"; sourceTree = "<group>"; };
+		49942F9F1E7B7A9200310D01 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		49C0180C1E7B768F00AAA8C8 /* DFBaiduMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBaiduMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C018101E7B768F00AAA8C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49C018121E7B768F00AAA8C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 				49C0181D1E7B768F00AAA8C8 /* LaunchScreen.storyboard */,
 				49C018201E7B768F00AAA8C8 /* Info.plist */,
 				49C0180F1E7B768F00AAA8C8 /* Supporting Files */,
+				49942F9F1E7B7A9200310D01 /* PrefixHeader.pch */,
 			);
 			path = DFBaiduMap;
 			sourceTree = "<group>";
@@ -284,6 +286,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DFBaiduMap/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -329,6 +333,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DFBaiduMap/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -387,6 +393,7 @@
 				49C018251E7B768F00AAA8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
